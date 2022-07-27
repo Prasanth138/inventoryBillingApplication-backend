@@ -63,7 +63,7 @@ app.post('/payment', (req, res) => {
 
 
 //port
-const PORT=5000 || process.env.PORT;
+const PORT=process.env.PORT || 5000;
 //Router
 app.use('/',router)
 
